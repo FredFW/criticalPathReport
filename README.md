@@ -27,9 +27,9 @@ This is a tool to monitor the status of multipe projects, it was tailor-made for
 >* Every user would work on multipe projects at the same time and every project would involve multipe users, thus we need a aligned tool acrossing the teams to monitor the project status
 
   
-### User Story & Tool Requirement
-
-* The only avaliable software for users is Microsoft Excel 2007
-
-* Microsoft Access, Python and databases such as MySQL, SQL Server, SQLite are not avaliable
+>### User Story & Tool Requirement
+>
+>* The only avaliable software for users is Microsoft Excel 2007
+>
+>* Microsoft Access, Python and databases such as MySQL, SQL Server, SQLite are not avaliable
 
