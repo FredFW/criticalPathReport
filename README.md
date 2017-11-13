@@ -2,8 +2,11 @@
 ### A Project Management Tool based on Excel VBA
 
 This is a tool to monitor the status of multipe projects, it was tailor-made for the requests from End-User, the tool include:
+
 1. Excel-based data input interface
+
 2. Csv-based flat database
+
 3. Excel-based project status report
 
 >### Background
