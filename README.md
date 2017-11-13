@@ -1,5 +1,5 @@
 # Critical Path Report
-## A Project Management Tool based on Excel VBA
+### A Project Management Tool based on Excel VBA
 
 This is a tool to monitor the status of multipe projects, it was tailor-made for the requests from End-User, the tool include:
 
