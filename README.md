@@ -9,8 +9,7 @@ This is a tool to monitor the status of multipe projects, it was tailor-made for
 
 3. Excel-based project status report
 
-
-
+  
 >### Background
 
 * End-users are merchandisers, buyers, QAs, packaging specialists and managers who work in a retailer business, around 50 - 60 people in total, 20 of them are merchandisers and responible for data input in this tool
@@ -27,8 +26,7 @@ This is a tool to monitor the status of multipe projects, it was tailor-made for
 
 * Every user would work on multipe projects at the same time and every project would involve multipe users, thus we need a aligned tool acrossing the teams to monitor the project status
 
-
-
+  
 >### User Story & Tool Requirement
 
 * The only avaliable software for users is Microsoft Excel 2007
