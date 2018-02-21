@@ -19,7 +19,7 @@ html, body {
 
 .backdrop {
     min-height: 100%;
-    min-width: 100%;
+    width: 100%;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -30,7 +30,7 @@ html, body {
 
 .section {
     min-height: 100%;
-    min-width: 100%;
+    width: 100%;
     padding: 1em;
     background-color: azure;
     /* position: relative; */
@@ -60,7 +60,7 @@ html, body {
 
 .semiSection {
     min-height: 50%;
-    min-width: 100%;
+    width: 100%;
     padding: 1em;
     background-color: azure;
     /* position: relative; */
@@ -165,7 +165,7 @@ html, body {
 }
 
 .picture {
-    background-image: url("cover.jpg");
+    background-image: url("/cover.jpg");
     background-position: center;
 }
 
