@@ -7,8 +7,7 @@ var bottomBar = document.getElementById("bottomBar");
 var brand = document.getElementById("brand");
 var status = "top"
 
-var topFun = function() {
-    overlay.style.opacity = (((pos - winHeight) / winHeight) + 1).toString();
+var topFun = function() {    
     coverContent.style.opacity = "1";
 
     if (heading.classList){
@@ -47,6 +46,10 @@ var bottomFun = function() {
     status = "bottom";
 }
 
+var fade = function() {
+    overlay.style.opacity = (((pos - winHeight) / winHeight) + 1).toString();
+}
+
 
 // window.onload = function() {
 //     brand.style.display = "none";
@@ -64,15 +67,17 @@ window.onresize = function() {
 window.onscroll = function() {
     pos = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop;
     
-    if (pos > winHeight){
+    if (pos >= winHeight){
         if (status !== "bottom"){
             bottomFun();
         }
     }
-    else if (pos < winHeight){
+    else {
+        fade();
         if (status !== "top"){
             topFun();
         }
+    }
 }
 
 $(document).ready(function(){

@@ -45,7 +45,7 @@ html, body {
 }
 
 .window {
-    height: 70%;
+    height: 50%;
     width: 100%;
     padding: 1em;
     display: table;
@@ -95,6 +95,7 @@ html, body {
 
 .footer p {
     margin: 0;
+    padding: 1em;
     color: azure;
     font-weight: bold;
 }
