@@ -1,0 +1,12 @@
+{
+    "editor.detectIndentation": false,
+    "editor.fontSize": 16,
+    "editor.renderWhitespace": "none",
+    "editor.minimap.enabled": false,
+    "editor.renderControlCharacters": false,
+    "window.menuBarVisibility": "default",
+    "workbench.activityBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "editor.wordWrap": "on"
+}
