@@ -1,11 +1,21 @@
 * {
     box-sizing: border-box;
     color: darkslategrey;
+    font-family: 'Roboto', sans-serif;
     /* color: black; */
 }
 
 p {
-    font-size: 1.3em;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+h3 {
+    font-weight: 500;
 }
 
 nav {
@@ -155,14 +165,6 @@ html, body {
 
 .cover {
     background-color: lightskyblue;
-    /* background-color: rgb(37, 37, 175); */
-
-    /* background-image: url("cover.jpg"); */
-    /* background-position: center; */
-
-    /* background-size: auto 100%; */
-    /* background-size: cover; */   
-    /* background-repeat: no-repeat; */
 }
 
 .picture {
