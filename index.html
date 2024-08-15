@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+    <head>
+
+        <meta name="author" content="Fred Wong">
+        <meta charset="UTF-8">
+        <meta name="google" value="notranslate">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- <link rel="stylesheet" href="./Styles/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:500,900" rel="stylesheet">
+        <link rel="stylesheet" href="./Styles/style.css">
+    
+        <title>Critical Path Report</title>
+
+    </head>
+
+    <body>      
+
+        <div class="sectionBlank">
+            <nav class="navbar navbar-expand-sm navbar-dark bottom" id="bottomBar">
+                <a class="navbar-brand hide" href="#" id="brand">Critical Path Report</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarElement" aria-controls="navbarElement" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarElement">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#download"><i class="fas fa-cloud-download-alt icon"></i>Download</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/FredFW/criticalPathReport/wiki" target="_blank"><i class="fab fa-wikipedia-w icon"></i>Wiki</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/FredFW/criticalPathReport" target="_blank"><i class="fab fa-github icon"></i>GitHub</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mailto:fai.wong@aggiemail.usu.edu"><i class="fas fa-envelope-open icon"></i>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="intro section">
+            <div class="wrapperChild">
+                <br>
+                <br>
+                <h1 class="boldFont">What is this?</h1>
+                <p>This is a solution to monitor the status of multipe projects, initially it was tailor-made for the needs from a group of specific end-user, it include:</p>
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-md-4 centerText"><i class="fas fa-file-excel fa-7x green"></i><p>Excel-based data input interface</p></div>
+                        <div class="col-md-4 centerText"><i class="fas fa-table fa-7x green"></i><p>Flat database (CSV files)</p></div>
+                        <div class="col-md-4 centerText"><i class="fas fa-paste fa-7x green"></i><p>Excel-based project status report</p></div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <h3>Background:</h3>
+                <ul style="list-style-type:disc">
+                    <li><p>There is a group of merchandisers, buyers, QAs, packaging specialists and managers who work in a retailer business, every year they develop over 700 new products and put them on shelf in stores.</p></li>
+                    <li><p>Normally people would develop multiple products at the same time, make them to be a product assortment for a sales promotion or everyday range, developing a new product/assortment is project-based.</p></li>
+                    <li><p>Every new product need to be passed through the "Critical Path" before on shelf. The Critical Path is a set of required tasks such as sample approval, packaging design, purchasing order issusing, pre-shipment inspection...Every task has a completion deadline which depends on specific leadtime and product on-show date (in-store date)</p></li>
+                    <li><p>Everyone in that retailer would work on multipe projects in parallel and every project would involve multipe persons, thus they need a aligned solution acrossing the teams to monitor the project status</p></li>
+                </ul>
+                <br>
+                <br>
+            </div>
+        </div>
+
+        <div class="window"><h1>Screenshoot:</h1></div>
+        
+        <div class="features section">
+            <div class="wrapperChild">
+                <h1 class="boldFont">What are the features?</h1>
+                <br>
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-md-4 centerText"><i class="far fa-clone fa-7x"></i><p>Show the project progress</p></div>
+                        <div class="col-md-4 centerText"><i class="far fa-clone fa-7x"></i><p>Alert the tasks getting overdue</p></div>
+                        <div class="col-md-4 centerText"><i class="far fa-clone fa-7x"></i><p>Pull out the project status report by just a few clicks</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="install section">
+            <div class="wrapperChild">
+                <h1 class="boldFont" id="download">Want to try it?</h1>
+                <br>    
+                <a role="button" class="btn btn-outline-info" href=""><i class="fas fa-cloud-download-alt clearIcon"></i>Download the Demo</a>
+                <br>
+                <br>
+                <br>
+                <h3>The solution require:</h3>
+                <ul style="list-style-type:disc">
+                    <li><p>Microsoft Windows XP or later</p></li>
+                    <li><p>Microsoft Excel 2007 or later with Marco enabled</p></li>
+                </ul>
+                <br>
+                <br>
+                <h3>Demo Installation</h3>
+                <p>Unzip the file "" to anywhere and then it is ready to go. Please maintain the file structure inside the "Critical Path" folder.</p>
+            </div>
+        </div>
+
+        <div class="wiki semiSection">
+            <div class="wrapperChild">
+                <h1 class="boldFont">How does it work?</h1>
+                <p>For detailed description of the solution, please refer to the wiki page on GitHub:</p>
+                <br>
+                <a role="button" class="btn btn-outline-info" href="https://github.com/FredFW/criticalPathReport/wiki" target="_blank"><i class="fab fa-wikipedia-w clearIcon"></i>Wiki page</a>
+                <br>
+                <br>
+                <a role="button" class="btn btn-outline-info" href="https://github.com/FredFW/criticalPathReport" target="_blank"><i class="fab fa-github clearIcon"></i>GitHub page</a>
+            </div>
+        </div>
+
+        <div class="contact semiSection">
+            <div class="wrapperChild">
+                <p>Or feel free to contact me at any time:</p>
+                <br>
+                <a role="button" class="btn btn-outline-info" href="mailto:fai.wong@aggiemail.usu.edu"><i class="fas fa-envelope-open clearIcon"></i>fai.wong@aggiemail.usu.edu</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Made by&nbsp<a href="https://fredfw.github.io" target="_blank">FredFW</a></p>
+        </div>
+
+        <div class="backdrop">
+            <div class="cover section" id="heading">
+                <div class="wrapperChild">
+                    <div id="coverContent">
+                        <h1 class="boldFont underline">Critical Path Report</h1>
+                        <h3>A Project Management Solution based on</h3>
+                        <h3>Excel VBA</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div id="overlay"></div>
+        </div>
+        
+        <!-- <div id="test">Test</div> -->
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="./Scripts/main.js"></script>
+
+    </body>
+
+</html>
